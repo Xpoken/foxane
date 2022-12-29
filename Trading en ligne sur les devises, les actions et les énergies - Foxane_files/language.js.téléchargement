@@ -1,0 +1,102 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+(function($) {
+   
+   
+   
+   		
+$('#langSelect').on('change', function() {
+  var value = $(this).val();
+  
+  
+  
+  var initialURLen = 'https://web.archive.org/web/20221217031443/http://www.foxane.com';
+  var initialURLit = 'https://web.archive.org/web/20221217031443/http://it.foxane.com';
+  var initialURLru = 'https://web.archive.org/web/20221217031443/http://ru.foxane.com';
+  var initialURLpt = 'https://web.archive.org/web/20221217031443/http://pt.foxane.com';
+  var initialURLde = 'https://web.archive.org/web/20221217031443/http://de.foxane.com';
+  var initialURLes = 'https://web.archive.org/web/20221217031443/http://es.foxane.com';
+  var initialURLfr = 'https://web.archive.org/web/20221217031443/http://fr.foxane.net';
+  var initialURLaz = 'https://web.archive.org/web/20221217031443/http://az.foxane.com';
+  var initialURLtr = 'https://web.archive.org/web/20221217031443/http://tr.foxane.com';
+  
+  switch (value){
+    case "EN":
+   window.location.href = initialURLen + window.location.pathname;
+    break;
+	
+	 case "IT":
+   window.location.href = initialURLit + window.location.pathname;
+    break;
+	
+	 case "RU":
+   window.location.href = initialURLru + window.location.pathname;
+   
+    break;
+	
+	
+	case "PT":
+    window.location.href = initialURLpt + window.location.pathname;
+    break;
+	
+	case "ES":
+    window.location.href = initialURLes + window.location.pathname;
+    break;
+	
+	case "DE":
+    window.location.href = initialURLde + window.location.pathname;
+    break;
+	
+	case "FR":
+    window.location.href = initialURLfr + window.location.pathname;
+    break;
+	
+	case "TR":
+    window.location.href = initialURLtr + window.location.pathname;
+    break;
+	
+	
+	
+	case "AZ":
+    window.location.href = initialURLaz + window.location.pathname;
+    break;
+
+     default:
+}
+});
+   
+   
+})(jQuery);
+
+}
+/*
+     FILE ARCHIVED ON 03:14:43 Dec 17, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:57:07 Dec 29, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 71.124
+  exclusion.robots: 0.092
+  exclusion.robots.policy: 0.085
+  RedisCDXSource: 0.544
+  esindex: 0.006
+  LoadShardBlock: 48.477 (3)
+  PetaboxLoader3.datanode: 50.803 (4)
+  CDXLines.iter: 19.619 (3)
+  load_resource: 163.914
+  PetaboxLoader3.resolve: 134.473
+*/

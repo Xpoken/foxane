@@ -1,0 +1,70 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+(function($) {
+	"use strict";
+	setInterval(function(){
+		var future = new Date("May 02 2018 6:51:10 GMT+0200");  // date to count down
+		var now = new Date();
+		var difference = Math.floor((future.getTime() - now.getTime()) / 1000);
+		
+		var seconds = fixIntegers(difference % 60);
+		difference = Math.floor(difference / 60);
+		
+		var minutes = fixIntegers(difference % 60);
+		difference = Math.floor(difference / 60);
+		
+		var hours = fixIntegers(difference % 24);
+		difference = Math.floor(difference / 24);
+		
+		
+		var days = difference;
+		
+		$(".seconds").text(seconds);
+		$(".minutes").text(minutes);
+		$(".hours").text(hours);
+		$(".days").text(days);
+		
+	}, 1000);
+	
+	function fixIntegers(integer)
+	{
+		if (integer < 0)
+			integer = 0;
+		if (integer < 10)
+			return "0" + integer;
+		return "" + integer;
+	}
+})(jQuery);
+
+}
+/*
+     FILE ARCHIVED ON 03:14:43 Dec 17, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:57:08 Dec 29, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 143.602
+  exclusion.robots: 0.093
+  exclusion.robots.policy: 0.085
+  cdx.remote: 0.065
+  esindex: 0.008
+  LoadShardBlock: 33.1 (3)
+  PetaboxLoader3.datanode: 274.555 (4)
+  CDXLines.iter: 20.803 (3)
+  load_resource: 267.648
+  PetaboxLoader3.resolve: 19.333
+*/
